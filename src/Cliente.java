@@ -1,22 +1,22 @@
 public class Cliente {
-    private String nome;
+    private String name;
     private String cpf;
     private String celular;
     private String email;
 
-    public Cliente(String nome, String cpf, String celular, String email) {
-        this.nome = nome;
+    public Cliente(String name, String cpf, String celular, String email) {
+        this.nome = name;
         this.cpf = cpf;
         this.celular = celular;
         this.email = email;
     }
 
     public String getNome() {
-        return nome;
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String name) {
+        this.nome = name;
     }
 
     public String getCpf() {
